@@ -36,7 +36,7 @@ def check_trademarks():
         name = item.get_text(strip=True)
         if "سا" in name and name not in seen:
             bot.send_message(
-                chat_id=YOUR_CHAT_ID_HERE,
+                chat_id=5465486117,
                 text=f"🔔 علامت جدید یافت شد:\n\n**{name}**\n\nℹ️ لینک جستجو:\n{url}",
                 parse_mode="Markdown"
             )
