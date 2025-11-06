@@ -2,7 +2,7 @@ name: Run Trademark Bot
 
 on:
   schedule:
-    - cron: "0 */3 * * *"   # هر 3 ساعت یک‌بار
+    - cron: "0 */3 * * *"   # هر 3 ساعت یک بار
   workflow_dispatch:
 
 jobs:
