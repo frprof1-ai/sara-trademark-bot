@@ -1,4 +1,4 @@
-bs4
+pyTelegramBotAPI
 requests
-python-telegram-bot
+bs4
 lxml
